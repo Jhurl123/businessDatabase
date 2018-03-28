@@ -1,0 +1,106 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:gravity="start"
+            android:minHeight="?android:attr/listPreferredItemHeightSmall"
+            android:paddingBottom="5dp"
+            android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
+            android:paddingStart="?android:attr/listPreferredItemPaddingStart"
+            android:paddingTop="5dp"
+            android:text="Record ID:"
+            android:textAppearance="?android:attr/textAppearanceListItemSmall" />
+
+        <TextView
+            android:id="@+id/record_id"
+            android:layout_width="170dp"
+            android:layout_height="30dp"
+            android:gravity="start"
+            android:minHeight="?android:attr/listPreferredItemHeightSmall"
+            android:paddingBottom="5dp"
+            android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
+            android:paddingStart="?android:attr/listPreferredItemPaddingStart"
+            android:paddingTop="5dp"
+            android:textAppearance="?android:attr/textAppearanceListItemSmall" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="170dp"
+            android:layout_height="25dp"
+            android:gravity="start"
+            android:minHeight="?android:attr/listPreferredItemHeightSmall"
+            android:paddingBottom="5dp"
+            android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
+            android:paddingStart="?android:attr/listPreferredItemPaddingStart"
+            android:textAppearance="?android:attr/textAppearanceListItemSmall" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="170dp"
+            android:layout_height="25dp"
+            android:gravity="start"
+            android:minHeight="?android:attr/listPreferredItemHeightSmall"
+            android:paddingBottom="5dp"
+            android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
+            android:paddingStart="?android:attr/listPreferredItemPaddingStart"
+            android:textAppearance="?android:attr/textAppearanceListItemSmall" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/business"
+            android:layout_width="170dp"
+            android:layout_height="25dp"
+            android:gravity="start"
+            android:minHeight="?android:attr/listPreferredItemHeightSmall"
+            android:paddingBottom="5dp"
+            android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
+            android:paddingStart="?android:attr/listPreferredItemPaddingStart"
+            android:textAppearance="?android:attr/textAppearanceListItemSmall" />
+
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="260dp"
+            android:layout_height="25dp"
+            android:gravity="start"
+            android:minHeight="?android:attr/listPreferredItemHeightSmall"
+            android:paddingBottom="5dp"
+            android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
+            android:paddingStart="?android:attr/listPreferredItemPaddingStart"
+            android:textAppearance="?android:attr/textAppearanceListItemSmall" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="170dp"
+            android:layout_height="30dp"
+            android:gravity="start"
+            android:minHeight="?android:attr/listPreferredItemHeightSmall"
+            android:paddingBottom="10dp"
+            android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
+            android:paddingStart="?android:attr/listPreferredItemPaddingStart"
+            android:textAppearance="?android:attr/textAppearanceListItemSmall" />
+
+        <TextView
+            android:id="@+id/phone"
+            android:layout_width="260dp"
+            android:layout_height="30dp"
+            android:gravity="start"
+            android:minHeight="?android:attr/listPreferredItemHeightSmall"
+            android:paddingBottom="10dp"
+            android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
+            android:paddingStart="?android:attr/listPreferredItemPaddingStart"
+            android:textAppearance="?android:attr/textAppearanceListItemSmall" />
+    </TableRow>
+</TableLayout>

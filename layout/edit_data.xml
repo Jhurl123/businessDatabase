@@ -1,0 +1,46 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TableRow android:gravity="center">
+        <TextView android:layout_width="0px" android:layout_height="wrap_content" android:padding="5dp" android:text="Business Card Information" android:textAlignment="viewStart" android:textAllCaps="false" android:textSize="30sp" android:layout_weight="1.0" android:textStyle="bold"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:layout_width="0px" android:text="" android:textSize="18sp" android:layout_weight="0.25" android:padding="5dp"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:layout_width="0px" android:layout_height="wrap_content" android:padding="5dp" android:text="Record ID:" android:layout_weight="0.25" android:textSize="18sp"/>
+        <TextView android:id="@+id/RecordID" android:layout_width="0px" android:padding="5dp" android:text="" android:layout_weight="0.75" android:textSize="18sp"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:layout_width="0px" android:padding="5dp" android:text="Name:" android:layout_weight="0.25" android:textSize="18sp"/>
+        <EditText android:id="@+id/Name" android:layout_width="0px" android:layout_height="wrap_content" android:ems="10" android:layout_weight="0.75" android:inputType="textPersonName"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:layout_width="0px" android:padding="5dp" android:text="Title:" android:layout_weight="0.25" android:textSize="18sp"/>
+        <EditText android:id="@+id/Title" android:layout_width="0px" android:layout_height="wrap_content" android:ems="10" android:layout_weight="0.75" android:inputType="textCapWords"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:layout_width="0px" android:text="Company:" android:textSize="18sp" android:layout_weight="0.25" android:padding="5dp"/>
+        <EditText android:id="@+id/Company" android:layout_width="0px" android:layout_height="wrap_content" android:ems="10" android:layout_weight="0.75" android:inputType="text"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:layout_width="0px" android:text="Address:" android:textSize="18sp" android:layout_weight="0.25" android:padding="5dp"/>
+        <EditText android:id="@+id/Address" android:layout_width="0px" android:layout_height="wrap_content" android:ems="10" android:layout_weight="0.75" android:inputType="textPostalAddress"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:layout_width="0px" android:text="Email:" android:textSize="18sp" android:layout_weight="0.25" android:padding="5dp"/>
+        <EditText android:id="@+id/Email" android:layout_width="0px" android:layout_height="wrap_content" android:ems="10" android:layout_weight="0.75" android:inputType="textEmailAddress"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:layout_width="0px" android:text="Phone:" android:textSize="18sp" android:layout_weight="0.25" android:padding="5dp"/>
+        <EditText android:id="@+id/Phone" android:layout_width="0px" android:layout_height="wrap_content" android:ems="10" android:layout_weight="0.75" android:inputType="phone"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:layout_width="0px" android:text="" android:textSize="18sp" android:layout_weight="0.25" android:padding="5dp"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:layout_width="0px" android:text="" android:textSize="18sp" android:layout_weight="0.20" android:padding="5dp"/>
+        <Button android:id="@+id/Okay" android:layout_width="0px" android:layout_height="wrap_content" android:layout_weight="0.25" android:text="Ok"/>
+        <TextView android:layout_width="0px" android:text="" android:textSize="18sp" android:layout_weight="0.10" android:padding="5dp"/>
+        <Button android:id="@+id/Cancel" android:layout_width="0px" android:layout_height="wrap_content" android:layout_weight="0.25" android:text="Cancel"/>
+        <TextView android:layout_width="0px" android:text="" android:textSize="18sp" android:layout_weight="0.20" android:padding="5dp"/>
+    </TableRow>
+</TableLayout>
