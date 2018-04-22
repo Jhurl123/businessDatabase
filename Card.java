@@ -1,9 +1,5 @@
 package edu.dtcc.walldatabase;//package edu.dtcc.sqlitelistview;
 
-/**
- * Created by fwalls on 11/05/2017.
- */
-
 public class Card {
     private int id;
     private String name;
